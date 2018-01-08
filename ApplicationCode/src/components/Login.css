@@ -1,0 +1,192 @@
+ .btn-modal{
+    width: 100%;
+    background-color: grey !important;
+    color: white !important;
+    font-size: 24px !important;
+    border-radius: 0 !important;
+}
+input{
+    height: 3.5rem !important;
+}
+label, .subtext, .already{
+    font-weight: 400;
+    color: lightslategray;
+}
+.subtext, .divalready, .heading{
+    text-align: center;
+}
+.heading{
+    font-size: 4.5rem;
+}
+.subtext{
+    margin: 4%;
+}
+.divalready{
+    margin-top: 7%;
+}
+.container1{
+    margin-top: 4%;
+}
+strong{
+    cursor: pointer;
+}
+.bod{
+    margin-top: 16%;
+}
+
+.carmodname{
+    font-size: 3rem;
+}
+.cont{
+    font-weight: bold;
+}
+.rowinner{
+    margin-top: 7%;
+}
+.lowcontent{
+    margin-top: 21%;
+}
+.rowModal{
+    padding: 1% 3%;
+}
+.paragraph{
+    margin-top: 6%;
+}
+img{
+    width: 97%;
+    height: 300px;
+}
+.carousel-indicators-modal li{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.collast{
+    margin-top: 8%;
+}
+.carousel-indicators-modal{
+    margin-top: 67%;
+}
+.buttonlast{
+    margin-top: 8%;
+}
+.cross{
+     border: 1px solid black;
+    border-radius: 50%;
+    float: right;
+    width: 18%;
+    height: 46px;
+    margin-top: -12%;
+    cursor: pointer;
+}
+.closee{
+    color: grey;
+    text-align: center;
+    margin: 19% 36%;
+}
+header
+{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 25px;	
+}
+
+#info
+{
+	font-size: 18px;
+	color: #555;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+a{
+	color: #074E8C;
+}
+
+.scrollbar
+{
+    overflow-y: scroll;
+    overflow-x: hidden; 
+    margin-bottom: 25px;
+    height: 350px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+#wrapper
+{
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+
+
+/*
+ *  STYLE 2
+ */
+
+#style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: gray;
+}
+
+.modal-close-icon{
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 5px 12px;
+}
+
+
+ .collast{
+    text-align: left !important;
+}
+
+.li-caros{
+    height: 1.5rem;
+    width: 0.5rem;
+    position: absolute;
+    margin: -38px auto;
+}
+
+.li-lastt{
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 100% !important;
+    border: 1px solid lightgrey !important; 
+    border-radius: 50%;
+    background-color: lightgrey !important; 
+}
+.column-6{
+    margin-top: 6%;
+}
+.container1{
+        width: 25%
+    }
+@media only screen and (max-width: 800px) {
+    .container1{
+        width: 100% !important
+    }
+}
+button,label{
+    cursor: pointer;
+}
+input{
+    border-color: black !important;
+}

@@ -1,0 +1,346 @@
+  .sidenav {
+      height: 100%;  
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right:0;
+     background-color: gainsboro; 
+    overflow: hidden;
+}
+
+#mySidenav{
+    width: 264px;
+    background-color: gainsboro
+}
+#main{
+    margin-right: 250px;
+}
+
+.main-heading{
+    margin-bottom: 20px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#icons{
+    float: right;
+}
+/* @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} */
+
+@media screen and (max-height: 500px) {
+  #mySidenav{
+       width: 0; 
+  }
+     #main{
+        margin-right: 0;
+    } 
+}
+ 
+ 
+span{
+    cursor: pointer;
+}
+
+.sidenavbar{
+     width: 55px; 
+    margin: 0% 0%;
+     height: 100%;
+}
+.img-nav{
+    width: 42px;
+    display: block;
+    padding:10px 0px
+}
+
+.imgcol{
+    background-color: lightgray;
+}
+.undheading{
+    color: lightgray;
+}
+.fa-search, .fa-sign-out{
+    font-size: 25px !important;
+}
+
+.span{
+    margin: 0 auto;
+}
+
+.search-1{
+    margin: 0 27%;
+}
+
+.icons-section{
+    position: fixed;
+    height: 100%;
+}
+ .icons-section2{
+    background: gainsboro;
+} 
+.padding-icons{
+    padding:2px;
+}
+.bottom-section{
+    position: absolute;
+    bottom: 0;
+}
+.sign-out-2{
+    background-color: black;
+    width: 3.77%;
+}
+.sign-out-1{
+    margin: 0 33%;
+}
+
+.fa-sign-out{
+    color: white;
+    margin-top: 20%;
+}
+
+.mainpic{        
+        width: 60%;
+        margin: 0 auto;
+}
+.heading{
+    font-size: 46px;
+    font-weight: bold;
+    color: darkolivegreen;
+}
+.specs{
+    background-color: grey;
+    color: white;
+    margin-left: 3%;
+    border-radius: 50px;
+    border: 1px solid grey;
+}
+button{
+    cursor: pointer;
+}
+.div1{
+    margin-top: 0px !important;
+    position: absolute !important;
+    top: 0 !important;
+    font-size: 24px;
+    padding: 5%;
+    width: 30%;
+}
+.list-group-item{
+    border-left: none !important;
+    border-right: none !important;
+    background-color: gainsboro !important;
+}
+.pad{
+    padding: 8% 0;
+}
+.span1{
+    width: 30px;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+#footer{
+        position:absolute;
+        bottom:0;
+        height:65px;
+}
+.footitem{
+    padding: 1%;
+}
+.footitem, .footimg{
+text-align: center !important;
+}
+
+.float-left{
+    width: 94%;
+}
+
+.spanfooter{
+    border: 1px;
+    border-radius: 100%;
+    display: inline !important;
+}
+.fontbold{
+    font-size: 1.7rem;
+}
+.cost{
+    font-size:28px;
+}
+
+
+
+
+.order{
+    margin: 0 auto;
+    font-size: 2rem;
+}
+.colorblack{
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.panel-heading{
+    font-size: 1.5rem;
+}
+.btclose{
+    margin: 0% 78%;
+    font-size: 2rem;
+}
+
+
+/* scroll */
+header
+{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 25px;	
+}
+
+#info
+{
+	font-size: 18px;
+	color: #555;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+a{
+	color: #074E8C;
+}
+
+.scrollbar
+{
+    height: 70vh;
+	background: gainsboro;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+
+/*
+ *  STYLE 1
+ */
+
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+
+
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
+
+.app-container .carousel-item-next,
+.app-container .carousel-item-prev,
+.app-container .carousel-item.active{
+  display: -webkit-box;
+}
+
+.up-arrow{
+    position: absolute;
+    width: 100px;
+    top:0;
+}
+.add-car-pic{
+    margin: 0;
+    padding: 0;
+}
+.cross-button{
+    margin-left: 27%;
+}
+.car-colors{
+    border-left: none;
+}
+/*  */
+
+.bottom-sec{
+    background-color: black;
+    height: 47.78px;
+}
+.hiddn{
+    height: 100vh;
+}
+.carosel-img{
+    margin-top:50%;
+}
+
+/* changes  */
+.add-car, .cross-button{
+bottom: 0;
+position: absolute;
+}
+.col-height-set{
+    height: 100vh;
+}
+.cross-button{
+margin-left: 8px;
+}
+.cost-class{
+    height: 107px;
+    background-color: white;
+    margin-top: 37px;
+    padding: 12px;
+}
+.order-black{
+    background: black;
+    color: white;
+}
+.order-white{
+    background-color: white;
+}
+.secondlast-icon{
+    padding: 0px;
+}
